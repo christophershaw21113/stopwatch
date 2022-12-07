@@ -1,0 +1,48 @@
+body {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #434343, #000000);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  padding: 0 5px 10px 5px;
+}
+h1 {
+  margin: auto;
+  color: #DCE1DE;
+  font-size: 50px;
+  font-variant: small-caps;
+  font-weight: 300;
+}
+#hours, #minutes, #seconds, #tens {
+ /* background-color: #7B7B7B; */
+  background-color: #434343;
+  color: #DCE1DE;
+  font-size: 50px;
+  padding: 0 10px;
+}
+.colon {
+  color: white;
+  font-size: 50px;
+  margin: 0 2px;
+}
+button {
+  background-color: transparent;
+  border: 1px solid #DCE1DE;
+  color: #DCE1DE;
+  width: 110px;
+  margin: 10px 5px;
+  padding: 10px 0;
+  font-size: 20px;
+}
+#button-reset {
+  background-color: #434343;
+}
